@@ -4,4 +4,4 @@
 
 <br>
 
-- [cs with python](dd)
+- [cs with python](https://github.com/heejung-gjt/tech-interview/blob/main/cs%20with%20python/cs%20with%20python.md)
