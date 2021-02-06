@@ -4,4 +4,5 @@
 
 <br>
 
-- [cs with python](https://github.com/heejung-gjt/tech-interview/blob/main/cs%20with%20python/cs%20with%20python.md)
+- [cs with python](https://github.com/heejung-gjt/tech-interview/tree/main/cs%20with%20python)    
+- [Structure](https://github.com/heejung-gjt/tech-interview/tree/main/Structure)    
