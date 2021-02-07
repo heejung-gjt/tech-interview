@@ -65,4 +65,11 @@ list를 set으로 변경하여 사용한다. set은 중복값을 제거해주는
 * * *
 <br>
 
+#### 11.  try... except... else 구문에서 else는 언제 실행되는지 설명해라
+1. try ~ except절 : try 안에는 기본적으로 실행하는 코드를 넣는다. except안에는 에러가 발생했을 경우 실행될
+코드를 작성한다    
+2. try ~ except ~ else : else절은 예외가 발생하지 않아 except절을 실행하지 않았을 경우 실행되는 절이다    
+* * *
+<br>
+
 ##### [reference - dingrr.com](https://dingrr.com/blog/post/python-python-%EB%A9%B4%EC%A0%91-%EC%98%88%EC%A0%9C-1%ED%8E%B8)
