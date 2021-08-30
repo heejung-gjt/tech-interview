@@ -1,9 +1,9 @@
 ## OSI(Open System Interconnection) 7°èÃþ
 
- Q1. OSI 7°èÃþÀÌ¶õ ¹«¾ùÀÎ°¡(³×Æ®¿öÅ© °èÃþ¿¡ ´ëÇÑ Ç¥ÁØ)
+ Q1. OSI 7°èÃþÀÌ¶õ ¹«¾ùÀÎ°¡(³×Æ®¿öÅ© °èÃþ¿¡ ´ëÇÑ Ç¥ÁØ)    
  µ¥ÀÌÅÍ´Â ³×Æ®¿öÅ©¸¦ ÅëÇØ¼­ »ó´ë¹æ¿¡°Ô Àü¼ÛÀÌ µÈ´Ù. ÀÌ·¯ÇÑ ³×Æ®¿öÅ©¸¦ ÅëÇØ Åë½ÅÀÌ ÀÏ¾î³ª´Â °úÁ¤À» 7´Ü°è·Î ³ª´«°ÍÀ» ¸»ÇÑ´Ù 
  
- Q2. OSI 7°èÃþÀ» ³ª´« ÀÌÀ¯´Â ¹«¾ùÀÎ°¡
+ Q2. OSI 7°èÃþÀ» ³ª´« ÀÌÀ¯´Â ¹«¾ùÀÎ°¡     
  7´Ü°èÁß¿¡¼­ Æ¯Á¤ÇÑ °÷¿¡ ÀÌ»óÀÌ »ý±â¸é ´Ù¸¥ ´Ü°èÀÇ Àåºñ³ª ¼ÒÇÁÆ®¿þ¾î¸¦ °ÇµéÁö ¾Ê°í ÀÌ»óÀÌ »ý±ä ´Ü°è¿¡¼­ °íÄ¥ ¼ö ÀÖ±â ¶§¹®ÀÌ´Ù 
  
  <br>
@@ -58,7 +58,7 @@ HI¶ó´Â µ¥ÀÌÅÍ´Â ÀÀ¿ë°èÃþ¿¡¼­ Çì´õ¿¡ µ¥ÀÌÅÍ¿Í ÇÔ²² ºÙ¿© ÇÏÀ§ °èÃþÀ¸·Î ³Ñ°ÜÁØ´Ù. Ç
 
 <br>
 
-## ÇÁ·ÎÅäÄÝ µ¥ÀÌÅÍ ´ÜÀ§(PDU)
+## ÇÁ·ÎÅäÄÝ µ¥ÀÌÅÍ ´ÜÀ§(PDU/Process Data Unit)
 
 ### PDU¶õ ¹«¾ùÀÎ°¡?
 ÇÁ·ÎÅäÄÝ µ¥ÀÌÅÍ ´ÜÀ§(Protocol Data Unit)´Â µ¥ÀÌÅÍ Åë½Å¿¡¼­ »óÀ§ °èÃþÀÌ Àü´ÞÇÑ µ¥ÀÌÅÍ¿¡ ºÙÀÌ´Â Á¦¾îÁ¤º¸ÀÌ´Ù. µ¥ÀÌÅÍ ÀÚÃ¼´Â µ¿ÀÏÇÏÁö¸¸ °¢°¢ÀÇ ·¹ÀÌ¾î¸¦ °ÅÄ¡¸é¼­ Çì´õ Á¤º¸°¡ Ãß°¡µÇ¸é¼­ ºÒ¸®´Â ÀÌ¸§ÀÌ ´Þ¶óÁø´Ù.    
@@ -79,8 +79,9 @@ tcp/ip°èÃþ¿¡ µû¸¥ PDU´Â ¾Æ·¡¿Í °°ÀÌ Á¤ÀÇµÈ´Ù
 - µ¥ÀÌÅÍ¸µÅ©°èÃþ(DataLink) : Frame     
 ÆÐÅ¶ Çì´õ¿¡ Ãâ¹ß, ¸ñÀûÁöÀÇ MAC Á¤º¸¸¦ ´ã°í Æ®·¹ÀÏ·¯¿¡ CRC(¿À·ù°ËÃâºñÆ®)¸¦ ´ã¾Æ¼­ Ä¸½¶È­ÇÑ´Ù    
 
-- ¹°¸®°èÃþ(Computer Hardware) : Bit    
-bit·Î µ¥ÀÌÅÍ¸¦ ³ª´©¾î Àü¼ÛÇÑ´Ù
+
+>¹°¸®°èÃþ(Computer Hardware) : Bit -> bit´Â pdu°¡ ¾Æ´Ñ ´ÜÁö ½ÅÈ£ÀÇ Èå¸§ÀÌ´Ù. Áï pdu´Â 2,3,4°èÃþÀ» »ý°¢ÇÏ´Â °ÍÀÌ ¿Ç´Ù   
+
 
 <br>
 

@@ -10,9 +10,9 @@
 <br><br>
 
 ## 🔹 네트워크
-- [쿠키와 세션, 캐시에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/session%2Ccookie%2Ccache.md)
-- OSI 7계층에 대해서 설명해라
-- Frame, Packet, Segment, Datagram에 대해서 설명해라
+- [쿠키와 세션, 캐시에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/session%2Ccookie%2Ccache.md)   
+- [OSI 7계층에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
+- [Frame, Packet, Segment, Datagram에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
 - TCP/IP에 대해서 설명해라
 - TCP/UDP에 대해서 설명해라
 - TCP와 UDP의 헤더 분석에 대해서 설명해가
