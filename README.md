@@ -21,9 +21,9 @@
   > Q. TCP의 연결 설정 과정(3단계)과 연결 종료 과정(4단계)이 단계가 차이나는 이유는?      
   > Q. 만약 Server에서 FIN 플래그를 전송하기 전에 전송한 패킷이 Routing 지연이나 패킷 유실로 인한 재전송 등으로 인해 FIN 패킷보다 늦게 도착하는 상황이 발생하면 어떻게 될까?      
   > Q. 초기 Sequence Number인 ISN을 0부터 시작하지 않고 난수를 생성해서 설정하는 이유?
-- HTTP와 HTTPS에 대해서 설명해라
+- [HTTP와 HTTPS에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/https.md)
 - HTTP 요청/응답 헤더에 대해서 설명해라
-- HTTP와 HTTPS 동작 과정에 대해서 설명해라
+- [HTTP와 HTTPS 동작 과정에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/https.md)
 - CORS에 대해서 설명해라
 - GET 메서드와 POST 메서드에 대해서 설명해라
 - DNS에 대해서 설명해라
