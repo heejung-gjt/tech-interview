@@ -1,13 +1,51 @@
 ## HTTP 요청/응답 헤더
 
+클라이언트가 서버에 HTTP request를 보내고, 서버가 HTTP response를 돌려보낸다. 
+
+
 ### 요청(request)
 요청을 보낼때 요청에 대한 정보를 담아 서버로 보낸다
 브라우저에 url을 친 후 요청을 보내면 GET/http://url.com HTTP/1.1 요청을 보내는것과 같다. 이때 주소와 함께 HTTP 메서드를 같이 보낼 수 있다
+
+```python
+:authority: analytics.twitter.com
+:method: GET
+accept: */*
+accept-encoding: gzip, deflate, br
+accept-language: ko-KR,ko;q=0.9,en-US;q=0.8,en;
+Connection: keep-alive
+Content-Length: 83
+Content-Type: application/json
+referer: https://www.inflearn.com/
+user-agent: Mozilla/5.0 (X11; Linux x86_64) 
+
+```
+
+#### 요청 구조
+
+__starter line__ : 해당 request가 어떤것을 의미하는지에 대한 정보를 담는다. 어떤곳에 요청하는지에 대한 정보를 담는다.   
+
+__headers__ : 해당 request에 대한 추가 정보를 담고있는 부분이다. key:value값으로 되어 있다.   
+
+__body__ : 데이터가 담겨져 있는 부분이다. 클라이언트의 정보를 서버에 넘겨주어야 서버에서 어떤 정보를 담아서 보내줘야 할지 알려준다   
+
+### 응답(response)
+응답도 요청과 마찬가지로 크게 3부분으로 구조가 나뉘어져 있다
+
+#### 응답 구조
+
+__starter line__ : 응답의 상태를 간략하게 나타내주는 부분으로 3부분 정도로 구성되어 있다. HTTP버전, Status code(응답 상태 나타내는 코드), Status text(응답 상태 간략히 설명해주는 부분)   
+
+__headers__ : request의 헤더와 동일하다.   
+
+__body__ : request의 body와 동일하다. 하지만 데이터를 전송할 필요가 없을때는 body는 비어있게 된다 
+
+
 #### HTTP 메서드
-__GET__ : 지정된 리소스(URL)을 요청    
-__POST__ : 서버가 클라이언트의 폼 입력 필드 데이터의 수락을 요청, 클라이언트는 서버로 HTTP Body에 Data를 전송한다    
-__HEAD__ : 문서의 헤더 정보만 요청하며, 응답데이터(BODY)를 받지 않는다   
-__PUT__ : 클라이언트가 전송한 데이터를 지정한 URI로 대체한다. 클라이언트는 서버로 HTTP Body에 data를 전송한다    
+__GET__ : 원하는 데이터를 서버로부터 받아 올때 사용하는 메서드
+__POST__ : 데이터를 수정/생성/삭제할때 주로 사용되는 메서드로 클라이언트는 서버로 HTTP Body에 Data를 전송한다    
+__HEAD__ : 문서의 헤더 정보만 요청하며, 응답데이터(BODY)를 받지 않는다      
+__PUT__ : 클라이언트가 전송한 데이터를 지정한 URI로 대체한다. 클라이언트는 서버로 HTTP Body에 data를 전송한다 (post와 비슷한 기능을 한다)        
 __DELETE__ : 클라이언트가 지정한 URI를 서버에서 삭제한다    
 
 
@@ -48,7 +86,6 @@ __Referer__ : 해당 페이지 이전의 페이지 주소가 담겨있다. 이 헤더를 이용해 어떤 �
 
 <br>
 
-
 ### 응답 헤더
 
 __Access-Control-Allow-Origin__ : 요청을 보내는 프론트 주소와 받는 백엔드 주소가 다르면 __CORS문제__ 가 발생한다. 이때 서버에서 응답 메시지 Access-Control-Allow-Origin 헤더에 프론트 주소를 적어주어야 에러가 발생하지 않는다 ```Access-Control-Allow-Origin: www.url.com```   
@@ -61,3 +98,5 @@ __Content-Disposition__ :  응답 본문을 브라우저가 어떻게 표시해야 할지 알려주는 
 __Location__ : 어느 페이지로 이동할지를 알려주는 헤더이다  ```Location: /``` 인 경우는 브라우저는 /주소로 리다이렉트 한다    
 
 __Content-Security-Policy__ : 다른 외부 파일들을 불러오는 경우, 차단할 소스와 불러올 소스를 이곳에 명시할 수 있다. ```Content-Security-Policy: default-src https:``` 인 경우는 https를 통해서만 파일을 가져올 수 있게 한다는 뜻이다. 
+
+<br>
