@@ -1,3 +1,15 @@
+## SOP(Same Origin Policy)란(작성중..)
+```한 origin으로부터 로드된 document또는 script가 다른 origin의 리소스와 상호작용 할 수 있는 방법을 제한하는 중요한 보안 메커니즘이다. (mozilla.org)```      
+다른 출처의 리소스를 사용하는 것에 제한하는 보안방식으로 같은 출처인지 아닌지 url을 통해 판단한다         
+__document내에서 외부리소스들과 상호작용 할 때__ 리소스의 origin이 document의 origin과 다른 경우에 제한을 두는 방식이다       
+
+
+```https://www.naver.com:443/path/page.html``` 에서 브라우저가 이 origin을 따질 때에는 __scheme(https)__, __host(www.naver.com)__, __port(443)__ 로 따지게 된다
+
+여기서 잠깐 이런 url을 살펴보자. http://localhost 와 http://127.0.0.1은 다른 출처이다. 같은 url이긴하지만 브라우저 입장에서는 다른 출처라고 판단한다. 브라우저는 url을 string value로 비교하여 판단하기 때문이다.    
+
+<br>
+
 ## CORS(cross resource sharing)
 
 > CORS가 나오게 된 배경    
