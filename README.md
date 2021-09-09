@@ -48,3 +48,7 @@
 - [python 기초적인 질문](https://github.com/heejung-gjt/tech-interview/blob/main/Python/python-basics.md)   
 
 ## 🔹 Django
+
+- [Django의 특징](https://github.com/heejung-gjt/tech-interview/blob/main/Django/django%3F.md)   
+
+- [ORM이란](https://github.com/heejung-gjt/tech-interview/blob/main/Django/ORM.md)
