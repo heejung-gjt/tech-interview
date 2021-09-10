@@ -68,5 +68,7 @@ __브라우저는 캐시가 저장된 Recursive 서버를 사용하고 실제 �
 
 > 네임서버   
 > 도메인 이름을 컴퓨터가 통신할때 사용하는 ip주소로 변환시켜주기 위한 정보를 가지고 있는 서버
+
 <br>
+
 ###### [reference](https://gentlysallim.com/dns%EB%9E%80-%EB%AD%90%EA%B3%A0-%EB%84%A4%EC%9E%84%EC%84%9C%EB%B2%84%EB%9E%80-%EB%AD%94%EC%A7%80-%EA%B0%9C%EB%85%90%EC%A0%95%EB%A6%AC/)
