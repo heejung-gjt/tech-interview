@@ -9,7 +9,7 @@ DNS서버에서는 IP주소를 특정 도메인 주소와 같다는 기록을 �
 UDP와 TCP 포트 번호 53번을 사용한다
 UDP는 DNS조회를 할 경우 사용된다
 
-#### 과거 hosts
+### 과거 hosts
 과거에는 컴퓨터의 os마다 hosts.txt파일을 가지고 있었다. hosts파일에는 모든 컴퓨터의 hostname과 ip주소가 저장되어 있었다. 클라이언트는 해당 파일을 다운로드하여 적용하였다. 이후 사용이 증가하면서 host가 증가하였고 이에 따라 다양한 어려움이 생겨났다
 
 ### DNS 동작방식
@@ -39,7 +39,7 @@ UDP는 DNS조회를 할 경우 사용된다
 
 __브라우저는 캐시가 저장된 Recursive 서버를 사용하고 실제 네임서버를 설정하는 곳은 Authoritative서버라는 점을 기억하자__
 
-## DNS 동작 원리
+### DNS 동작 원리
 
 ![dns이미지지](https://user-images.githubusercontent.com/64240637/132820545-60610db9-60b7-48c9-917a-5f29023702ee.png)
 
