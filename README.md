@@ -25,7 +25,7 @@
 - [HTTP 요청/응답 헤더에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/http_header.md)   
 - [HTTP와 HTTPS 동작 과정에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/https.md)
 - [CORS에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/CORS.md)
-- GET 메서드와 POST 메서드에 대해서 설명해라
+- [GET 메서드와 POST 메서드에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/GET_POST.md)   
 - DNS에 대해서 설명해라
 - REST와 RESTful의 개념에 대해서 설명해라
 - 소켓(Socket)에 대해서 설명해라
