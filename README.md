@@ -28,8 +28,8 @@
 - [GET 메서드와 POST 메서드에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/GET_POST.md)   
 - [DNS에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/DNS.md)   
 - REST와 RESTful의 개념에 대해서 설명해라
-- 소켓(Socket)에 대해서 설명해라
-- Socket.io와 WebSocket의 차이에 대해서 설명해라
+- [소켓(Socket)에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/socket.md)   
+- [Socket.io와 WebSocket의 차이에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/socket.md)   
 - 웹서버 vs WAS에 대해서 설명해라
 - 프록시에 대해서 설명해라
 - connection: keep-alive/pool에 대해서 설명해라
