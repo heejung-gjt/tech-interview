@@ -45,8 +45,8 @@
 - [스택과 큐](https://github.com/heejung-gjt/tech-interview/blob/main/Structure/stack%20and%20queue.md)
 
 ## 🔹 Python
-- [python 기초적인 질문](https://github.com/heejung-gjt/tech-interview/blob/main/Python/python-basics2.md)   
-
+- [python 기초정리](https://github.com/heejung-gjt/tech-interview/blob/main/Python/python-basics2.md)     
+- [메모리 관리 방법](https://github.com/heejung-gjt/tech-interview/blob/main/Python/%EB%82%B4%EB%B6%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC.md)
 ## 🔹 Django
 
 - [Django의 특징](https://github.com/heejung-gjt/tech-interview/blob/main/Django/django%3F.md)   

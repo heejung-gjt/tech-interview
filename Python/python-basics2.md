@@ -53,7 +53,7 @@ def decorator_name(func):
 + a ) 리스트를 딕셔너리에서 키로 사용할 수 없다. 불변값만 해시를 만들 수 있기 때문에 딕셔너리의 키에는 불변값만 사용이 가능하다. 대신 리스트를 키로 사용하고 싶다면 리스트를 튜플로 변경하여 사용 가능하다   
 
 #### Q8. 파이썬에서 메모리를 어떻게 관리되나요?
-[파이썬의 내부 메모리 관리 정리]()   
+[파이썬의 내부 메모리 관리 정리](https://github.com/heejung-gjt/tech-interview/blob/main/Python/%EB%82%B4%EB%B6%80%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B4%80%EB%A6%AC.md)   
 
 Lambda와 Def의 주된 차이점은 무엇인가요?
 
