@@ -45,7 +45,7 @@
 - [스택과 큐](https://github.com/heejung-gjt/tech-interview/blob/main/Structure/stack%20and%20queue.md)
 
 ## 🔹 Python
-- [python 기초적인 질문](https://github.com/heejung-gjt/tech-interview/blob/main/Python/python-basics.md)   
+- [python 기초적인 질문](https://github.com/heejung-gjt/tech-interview/blob/main/Python/python-basics2.md)   
 
 ## 🔹 Django
 
