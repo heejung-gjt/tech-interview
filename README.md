@@ -10,6 +10,7 @@
 <br><br>
 
 ## 🔹 네트워크
+- 웹 동작방식에 대해서 설명해라   
 - [쿠키와 세션, 캐시에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/session%2Ccookie%2Ccache.md)   
 - [OSI 7계층에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
 - [Frame, Packet, Segment, Datagram에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
@@ -35,7 +36,50 @@
 - connection: keep-alive/pool에 대해서 설명해라
 
 ## 🔹 운영체제
-
+- 운영체제란?
+- 운영체제 구조
+  - 시스템 콜(System Call)
+  - 사용자 모드와 커널모드
+- 스케쥴링 
+  - 배치처리
+  - 멀티태스킹
+  - 멀티 프로세싱
+- 인터럽트(Interrupt) 
+  - 개념
+  - 내부 동작
+  - 종류
+- 프로세스 
+  - 구조
+  - 프로세스 스케줄링
+  - 스택 오버 플로우
+  - Context Switching
+  - 프로세스간 커뮤니케이션
+  - IPC
+- 스레드  
+  - 개념
+  - 장점과 단점
+  - 동기화 문제
+  - 스레드와 관련된 문제들
+- 멀티스레드
+  - 장점과 단점
+  - 멀티스레드 vs. 멀티프로세스
+  - 멀티프로세스 대신 멀티 스레드를 사용하는 이유
+- 힙 영역과 스택 영역의 차이점
+- 커널
+- CPU 스케줄링
+- 동기와 비동기
+- 동기화 도구
+  - 뮤텍스
+  - 세마포어
+  - 모니터
+- 데드락, starvation
+- aging
+- 메모리 구조
+- 가상 메모리 
+  - 개념
+  - 페이지 교체 알고리즘
+  - 세그멘테이션
+- 파일 시스템
 
 ## 🔹 데이터베이스
 
