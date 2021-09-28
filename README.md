@@ -10,7 +10,7 @@
 <br><br>
 
 ## 🔹 네트워크
-- [웹 동작방식에 대해서 설명해라]()   
+- [웹 동작방식에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/%EC%9B%B9%EB%8F%99%EC%9E%91%EB%B0%A9%EC%8B%9D.md)     g
 - [쿠키와 세션, 캐시에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/session%2Ccookie%2Ccache.md)   
 - [OSI 7계층에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
 - [Frame, Packet, Segment, Datagram에 대해서 설명해라](https://github.com/heejung-gjt/tech-interview/blob/main/%20Network/OSI%207%20Layer.md)    
