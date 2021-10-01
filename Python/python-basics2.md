@@ -74,9 +74,42 @@ a.append('c')
 둘 다 함수를 정의하는 방법이다.    
 lambda의 경우 임시적으로 만들어지는 함수이기 때문에 사용후에는 메모리에서 사라진다. 즉 일회성 함수라고 할 수 있다. def 키워드는 메모리에 할당되어 재사용이 필요한 함수를 만들때 사용한다   
 
-Docstring은 무엇인가요?
+#### Q11. Docstring은 무엇인가요?
+쌍따옴표 세개를 사용하여 여러줄의 주석을 작성할 수 있다. 
+함수나 클래스를 선언한 다음 라인에 해당 클래스나 함수의 기능이 무엇인지에 대한 주석을 달때 사용한다   
+__doc__를 사용해 주석을 읽을 수 있다 ```User.__doc__```
 
-Function call 혹은 A callable Object는 무엇인가요?
+
+#### Q12. Function call 혹은 A callable Object는 무엇인가요?
+- function call은 함수 호출이며 함수를 실행하는 명령문, 함수 이름과 인자 리스트로 구성된다        
+- callable object는 __상태를 가지는 함수를 매직메서드인 __call__ 을 사용하여 만들 수 있다__ 은 함수, 클래스 인스턴스, 메서드 등이 호출 가능한지 점검해주는 함수이다. 파이썬에는 callable내장함수가 있다. 매직메서드인 __call__메서드를 확인하면 된다.     
+
+객체는 함수가 아니기 때문에 에러가 발생한다
+```python
+class User:
+    pass
+
+user = User()
+n = plus(1, 2) # TypeError: 'Plus' object is not callable
+```
+
+매직 메소드인 __call__을 사용하면 객체를 함수처럼 사용할 수 있다
+```python
+class User:
+
+    def __call__(self, name, age):
+        return f'{name}의 나이는 {age}'
+
+user = User()
+n = user('kim', 24)
+print(n) # kim의 나이는 24
+
+
+```
+
+```python
+```
+
 
 Call by value는 무엇인가요?
 

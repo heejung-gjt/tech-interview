@@ -38,8 +38,8 @@
 ## 🔹 운영체제
 - [운영체제란?](https://github.com/heejung-gjt/tech-interview/blob/main/OS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80.md)
 - [운영체제 구조](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)
-  - [시스템 콜(System Call)](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)
-  - [사용자 모드와 커널모드](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)   
+  - [시스템 콜(System Call)](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md#%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%BD%9C)
+  - [사용자 모드와 커널모드](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md#%EC%82%AC%EC%9A%A9%EC%9E%90-%EB%AA%A8%EB%93%9C%EC%99%80-%EC%BB%A4%EB%84%90-%EB%AA%A8%EB%93%9C)   
 - 스케쥴링 
   - 배치처리
   - 멀티태스킹
