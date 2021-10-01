@@ -37,9 +37,9 @@
 
 ## 🔹 운영체제
 - [운영체제란?](https://github.com/heejung-gjt/tech-interview/blob/main/OS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EB%9E%80.md)
-- 운영체제 구조
-  - 시스템 콜(System Call)
-  - 사용자 모드와 커널모드
+- [운영체제 구조](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)
+  - [시스템 콜(System Call)](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)
+  - [사용자 모드와 커널모드](https://github.com/heejung-gjt/tech-interview/blob/main/OS/os_structure.md)   
 - 스케쥴링 
   - 배치처리
   - 멀티태스킹
